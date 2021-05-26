@@ -425,7 +425,7 @@ describe('<SortableTree />', () => {
     ).toBeDefined();
   });
 
-  it('loads using SortableTreeWithoutDndContext', () => {
+  it('loads using SortableTreeWithoutDndContext - TestBackend', () => {
     const onDragStateChanged = jest.fn();
     const treeData = [{ title: 'a' }, { title: 'b' }];
     let manager = null;
